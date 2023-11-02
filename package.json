@@ -1,0 +1,17 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "My awesome app",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "axios": "^0.21.1"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
