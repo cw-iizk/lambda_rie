@@ -16,5 +16,5 @@ $ curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" 
 
 時間を計測する場合
 ```
-time curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d @payload.json
+$ time curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d @payload.json
 ```
